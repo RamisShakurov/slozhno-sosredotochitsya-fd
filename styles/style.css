@@ -7,7 +7,8 @@
 
   background-image: image-set(
           url('../images/cover-image-dark.png') 1x,
-          url('../images/cover-image-dark-2x.png') 2x);
+          url('../images/cover-image-dark-2x.png') 2x,
+          url('../images/cover-image-dark-3x.png') 3x);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
