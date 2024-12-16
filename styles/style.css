@@ -165,10 +165,6 @@
   text-shadow: 1px 1px var(--bg-color-subtitle);
 }
 
-.regular-weight {
-  font-weight: 400;
-}
-
 .content__subtitle-accent {
   margin-bottom: 20px;
 }
@@ -396,6 +392,7 @@
 
   .content__title-column {
     grid-area: title-column;
+    max-inline-size: 300px;
   }
 
   .content__item-column-1 {
@@ -412,10 +409,6 @@
 
   .content__article__item {
     min-inline-size: 315px;
-  }
-
-  .content__title-column {
-    max-inline-size: 300px;
   }
 
   /*    picture*/
