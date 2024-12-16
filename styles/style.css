@@ -5,7 +5,9 @@
   font-size: 1.125rem;
   line-height: var(--line-height-text);
 
-  background-image: url('../images/cover-image-dark.png');
+  background-image: image-set(
+          url('../images/cover-image-dark.png') 1x,
+          url('../images/cover-image-dark2x.png') 2x);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

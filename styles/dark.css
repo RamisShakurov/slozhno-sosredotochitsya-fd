@@ -12,7 +12,8 @@
   --border-color-hover: rgba(50, 49, 45, 0.4);
   --color-text-hover: #353430;
 
-  background-image: url('../images/cover-image-dark.png');
+  background-image: image-set(url('../images/cover-image-dark.png') 1x,
+  url('../images/cover-image-dark2x.png') 2x);
 }
 
 .page.theme_dark .header__decor-element {
