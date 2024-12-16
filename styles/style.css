@@ -11,7 +11,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color);
-
 }
 
 .wrap__padding {
@@ -24,7 +23,8 @@
   grid-template-columns: 1fr;
   grid-template-rows:  1fr min-content min-content;
   padding: 10px 10px 10px 10px;
-  min-block-size: 678px;
+  min-block-size: 668px;
+  height: 100vh;
 }
 
 .header__decor-container {
@@ -96,7 +96,6 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid currentColor;
-
 }
 
 .header__theme-menu-button {
