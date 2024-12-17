@@ -192,7 +192,6 @@
 }
 
 .section__pictures {
-  padding-top: 39px;
   padding-bottom: 40px
 }
 
@@ -313,7 +312,6 @@
 
   /*MEDIA PICTURES WIDTH > 768PX*/
   .section__pictures {
-    padding-top: 58px;
     padding-bottom: 52px;
   }
 
@@ -357,6 +355,10 @@
 }
 
 @media (width >= 1024px) {
+  .header {
+    grid-template-rows: auto;
+  }
+
   .header__theme-menu {
     grid-row: 1 / auto;
     justify-self: center;
