@@ -299,10 +299,6 @@
     min-inline-size: 472px;
   }
 
-  .section__title-grid {
-
-  }
-
   .section__list--direction {
     flex-direction: column;
   }
@@ -386,6 +382,7 @@
   .main {
     padding-top: 60px;
   }
+
   .section__list--direction {
     flex-direction: row;
     column-gap: 20px;
