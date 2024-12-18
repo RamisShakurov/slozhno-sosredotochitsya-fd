@@ -104,7 +104,8 @@
 
 .header__theme-menu-button {
   padding: 0 13px;
-  cursor: pointer
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .decorated-zone::before {
@@ -219,9 +220,9 @@
 }
 
 /*ui*/
-.header__theme-menu-button_active:hover {
+.header__theme-menu-button:hover {
   outline: 1px solid var(--border-color-hover);
-  color: var(--color-text-hover);
+
 }
 
 .header__theme-menu-button:focus {
@@ -235,6 +236,14 @@
 
 .section__link:hover {
   border-bottom: 1px solid currentColor;
+}
+
+.section__link:focus {
+  outline: none;
+}
+
+.section__link:focus-visible {
+  outline: 1px solid currentColor;
 }
 
 /*MEDIA*/

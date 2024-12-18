@@ -13,10 +13,10 @@
     --color-text: #353430;
     --color-text-accent: #f1b2ce;
     --bg-color: #fff1f7;
-    --text-shadow: #ff0070;
+    --text-shadow: #FF8DCB;
     --color-button: #353430;
 
-    --border-color-hover: rgba(255, 0, 112, 0.4);
+    --border-color-hover: rgb(50 49 45 / 0.4);
   }
 
   .page {
@@ -31,18 +31,17 @@
 
 .page.theme_light {
   background-image: url('../images/cover-image-light.png');
-  --color-main-title: #FFC2E6;
+  --color-main-title: #ffc2e6;
   --color-title: #353430;
   --bg-color-subtitle: #ff8dcb;
   --color-subtitle: #353430;
   --color-text: #353430;
   --color-text-accent: #f1b2ce;
   --bg-color: #FFF1F7;
-  --text-shadow: #ff0070;
+  --text-shadow: #FF8DCB;
 
   --color-button: #353430;
-  --border-color-hover: rgba(255, 0, 112, 0.4);
-  --color-text-hover: #ff0070;
+  --border-color-hover: rgb(50 49 45 / 0.4);
 }
 
 .page.theme_light .header__decor-element {

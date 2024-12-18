@@ -9,8 +9,7 @@
   --text-shadow: #ff0070;
   --color-button: #ff0070;
 
-  --border-color-hover: rgba(50, 49, 45, 0.4);
-  --color-text-hover: #353430;
+  --border-color-hover: rgb(255 0 112 / 0.4);
 
   background-image: image-set(
           url('../images/cover-image-dark.png') 1x,
